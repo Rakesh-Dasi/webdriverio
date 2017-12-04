@@ -35,6 +35,7 @@ describe('webdriver.io page', function(){
 		//To capture the screenshot on code failure
 		browser.saveScreenshot('api-with-result.png');
 		console.log("It will capture screenshot")
+		console.log("To learn how to integrate code with Jenkins and run on the server")
 
 	});
 });
