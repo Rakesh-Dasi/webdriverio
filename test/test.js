@@ -34,6 +34,7 @@ describe('webdriver.io page', function(){
 		browser.setValue('input[name="search"]','debug');
 		//To capture the screenshot on code failure
 		browser.saveScreenshot('api-with-result.png');
+		console.log("It will capture screenshot")
 
 	});
 });
