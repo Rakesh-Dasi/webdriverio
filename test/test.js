@@ -32,6 +32,7 @@ describe('webdriver.io page', function(){
 		browser.url('/api.html');
 		
 		browser.setValue('input[name="search"]','debug');
+		//To capture the screenshot on code failure
 		browser.saveScreenshot('api-with-result.png');
 
 	});
