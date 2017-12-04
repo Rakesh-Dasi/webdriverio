@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1511950571803' stop='1511950579675'>
+    <name>webdriver.io page Api Page</name>
+    <title>webdriver.io page Api Page</title>
+    <test-cases>
+        <test-case start='1511950571803' status='passed' stop='1511950573382'>
+            <name>should have a link to it from the homepage</name>
+            <title>should have a link to it from the homepage</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Rakesh\\TrainingSessions\\webDriverIO\\wdio-web-sample\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1511950571832' status='passed' stop='1511950573337'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ecad54eb-823c-4c5a-93c6-aaa67d1a7754-attachment.json' type='application/json' size='37'/>
+                        <attachment title='Response' source='8cdbcd67-ccf4-4101-9535-175d6ac4fcbf-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950573347' status='passed' stop='1511950573381'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/elements</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='dafb787e-5cb3-4b14-afbe-05f16f796a1f-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='40384668-8306-4e1d-bb18-4d60ccb982dd-attachment.json' type='application/json' size='275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1511950573382' status='passed' stop='1511950578109'>
+            <name>should take you to the API page</name>
+            <title>should take you to the API page</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Rakesh\\TrainingSessions\\webDriverIO\\wdio-web-sample\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1511950573384' status='passed' stop='1511950574672'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fd5147e5-bb69-405a-abb8-11bdae5f7177-attachment.json' type='application/json' size='37'/>
+                        <attachment title='Response' source='b85b022a-9b26-4544-ac7f-ddd14e99337a-attachment.json' type='application/json' size='158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950574680' status='passed' stop='1511950574700'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0ce8bb7b-7470-429e-ba53-8a292044f389-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='04a117ff-cf0c-4e1a-a354-5c6486e772bf-attachment.json' type='application/json' size='251'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950574701' status='passed' stop='1511950576069'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/d9245daf-8ce2-4dba-9dbf-719ddda911fa/click</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/d9245daf-8ce2-4dba-9dbf-719ddda911fa/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2abb8a90-eb5c-43c0-bb76-d22a793ad2d5-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950576072' status='passed' stop='1511950576097'>
+                    <name>GET /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/title</name>
+                    <title>GET /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/title</title>
+                    <attachments>
+                        <attachment title='Response' source='ccee6c23-31cf-457a-b16e-bc912fbb5a4a-attachment.json' type='application/json' size='181'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1511950578114' status='passed' stop='1511950579674'>
+            <name>should filter search results</name>
+            <title>should filter search results</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Rakesh\\TrainingSessions\\webDriverIO\\wdio-web-sample\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1511950578117' status='passed' stop='1511950578849'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2d34f10f-8f03-4985-ba54-1ad80936ca44-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='a6031857-e8d9-406f-968e-c0c26bf12810-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950578852' status='passed' stop='1511950578918'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/elements</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='83be66e0-a37c-4fe1-936d-83b3bc90c81a-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='ee539e2e-a149-447b-9319-57b65ae16c09-attachment.json' type='application/json' size='274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950578920' status='passed' stop='1511950579001'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/47f7f3e2-a0c2-490e-b14d-724022bb411b/clear</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/47f7f3e2-a0c2-490e-b14d-724022bb411b/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='19ca9aa2-91e4-4aca-ab12-36c75cc8e0c9-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950579002' status='passed' stop='1511950579175'>
+                    <name>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/47f7f3e2-a0c2-490e-b14d-724022bb411b/value</name>
+                    <title>POST /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/element/47f7f3e2-a0c2-490e-b14d-724022bb411b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='6d17d9af-310a-430b-9534-e60dde948adc-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='6da806e6-a8a6-4630-b2a0-d29c0ac6f516-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511950579188' status='passed' stop='1511950579557'>
+                    <name>GET /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/screenshot</name>
+                    <title>GET /wd/hub/session/0912916d-5127-4088-854f-cb2a23132d88/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='abd1b2ac-4504-44df-97be-f15bd7715d1a-attachment.png' type='image/png' size='88588'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

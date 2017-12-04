@@ -1,0 +1,9 @@
+{
+    "message": "Unable to locate element: #username\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'\nSystem info: host: 'ONGC-DEL-BPM', ip: '192.168.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchElement",
+        "message": "An element could not be located on the page using the given search parameters.",
+        "orgStatusMessage": "Unable to locate element: #username\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'\nSystem info: host: 'ONGC-DEL-BPM', ip: '192.168.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'\nDriver info: driver.version: unknown"
+    }
+}

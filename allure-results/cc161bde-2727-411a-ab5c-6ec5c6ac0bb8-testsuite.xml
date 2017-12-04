@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1511949643597' stop='1511949648848'>
+    <name>webdriver.io page Api Page</name>
+    <title>webdriver.io page Api Page</title>
+    <test-cases>
+        <test-case start='1511949643598' status='passed' stop='1511949648847'>
+            <name>should filter search results</name>
+            <title>should filter search results</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\Rakesh\\TrainingSessions\\webDriverIO\\wdio-web-sample\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1511949643613' status='passed' stop='1511949646594'>
+                    <name>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/url</name>
+                    <title>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c1d3f538-1409-44ab-b199-ee0998b5ad4a-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='0c915e3e-e630-4d2f-8637-a9d2b927d2e7-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511949646629' status='passed' stop='1511949646672'>
+                    <name>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/elements</name>
+                    <title>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4713b892-a658-422b-a969-c6ff03695939-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='796170a5-37e0-46c3-acca-8541ad3599a2-attachment.json' type='application/json' size='274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511949646673' status='passed' stop='1511949646888'>
+                    <name>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/element/08c84fec-3263-4158-b21f-bbe20eb8fa04/clear</name>
+                    <title>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/element/08c84fec-3263-4158-b21f-bbe20eb8fa04/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a57619ab-9ee8-4e2e-9ae7-724402280e50-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511949646889' status='passed' stop='1511949647834'>
+                    <name>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/element/08c84fec-3263-4158-b21f-bbe20eb8fa04/value</name>
+                    <title>POST /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/element/08c84fec-3263-4158-b21f-bbe20eb8fa04/value</title>
+                    <attachments>
+                        <attachment title='Request' source='198478a1-8957-4833-80a6-55d13f884bc4-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='b68542ad-87de-4456-9240-8dd3c7025e3c-attachment.json' type='application/json' size='158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1511949647845' status='passed' stop='1511949648777'>
+                    <name>GET /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/screenshot</name>
+                    <title>GET /wd/hub/session/da1037dc-2dd0-4350-b040-47046307e014/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='17896a05-ae10-4b9c-bf45-784931c7a93c-attachment.png' type='image/png' size='88597'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
